@@ -16,18 +16,25 @@ export default {
         customGreen: '#245600',
       },
       screens:{
-        'xs': '550px'
-      }
-    },
-    keyframes: {
-      slideDown: {
-        '0%': { transform: 'translateY(-300px)' },
-        '100%': { transform: 'translateY(0)' },
+        'xs': '550px',
+        'slg':'900px'
+      },
+      boxShadow: {
+        'custom-outer': '7px 7px 7px 0px rgba(30, 80, 0, 0.50)',
+      },
+      keyframes: {
+        slideDown: { '0%': { transform: 'translateY(-300px)' }, '100%': { transform: 'translateY(0)' } },
+        slideUp: { 
+          '0%': { transform: 'translateY(0)' }, 
+          '100%': { transform: 'translateY(-300px)' } 
+        },
+      },
+      animation: {
+        slideDown: 'slideDown 1s ease-in-out',
+        slideUp: 'slideUp 1s ease-in-out forwards',
       },
     },
-    animation: {
-      slideDown: 'slideDown 1s ease-in-out',
-    },
+   
   },
   plugins: [],
 }
