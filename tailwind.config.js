@@ -19,7 +19,9 @@ export default {
       },
       screens:{
         'xs': '550px',
-        'slg':'900px'
+        'slg':'900px',
+        '4hsize':'405px',
+        '34hsize':'344px'
       },
       boxShadow: {
         'custom-outer': '7px 7px 7px 0px rgba(30, 80, 0, 0.50)',
