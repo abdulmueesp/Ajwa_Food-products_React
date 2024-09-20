@@ -11,7 +11,7 @@ export default {
         local1:['Cinzel'],
         local2:['Gruppo'],
         local3:['Agbalumo'],
-        
+        local4:['Kanit']
 
       },
       colors: {
@@ -25,7 +25,9 @@ export default {
       },
       boxShadow: {
         'custom-outer': '7px 7px 7px 0px rgba(30, 80, 0, 0.50)',
-        'custom-outer1': '2px 2px 2px 0px rgba(0, 0, 0, 0.5)',
+        'custom-outer1': '3px 5px 3px 0px rgba(0, 0, 0, 0.3)',
+        'custom-outer2': '2px 2px 2px 0px rgba(0, 0, 0, 0.5)',
+        'custom-outer3': '0px 5px 5px 2px rgba(0, 0, 0,0.2)',
       },
       keyframes: {
         slideDown: { '0%': { transform: 'translateY(-300px)' }, '100%': { transform: 'translateY(0)' } },

@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* logo section  */}
         <div className="w-[230px] xs:w-[500px] bg-[#f5f5f5] flex items-center  h-[60px]   sm:pl-[100px]">
           <div className="w-[180px] h-[50px] bg-[#f5f5f5]  flex justify-center items-center  ">
-              <div className='w-[36px] h-[36px] bg-green-600 text-white rounded-full  flex items-center justify-center font-local1 font-extrabold text-2xl sm:text-3xl shadow-custom-outer1 '><h1>A</h1></div>
+              <div className='w-[36px] h-[36px] bg-green-700 text-white rounded-full  flex items-center justify-center font-local1 font-extrabold text-2xl sm:text-3xl shadow-custom-outer2 '><h1>A</h1></div>
               <div><h1 className='font-local2 font-bold sm:text-xl text-gray-600 ml-[3px]'>jwa  products</h1></div>
           </div>
           
