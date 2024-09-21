@@ -54,7 +54,7 @@ const Navbar = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-9 text-white"
+          className="size-9 text-black"
         >
           <path
             strokeLinecap="round"
@@ -65,7 +65,7 @@ const Navbar = () => {
       )}
         </div>
       </div>
-        <div className={` flex flex-col space-y-5 justify-center items-center w-full h-[300px] bg-white rounded-2xl bg-opacity-90 border-2  absolute   text-black font-local animate-slideDown ${open ? "hidden xs:hidden" :"block xs:hidden"}`}>
+        <div className={` z-50 flex flex-col space-y-5 justify-center items-center w-full h-[300px] bg-[#f5f5f5] rounded-2xl  border-2  absolute   text-black font-local animate-slideDown ${open ? "hidden xs:hidden" :"block xs:hidden"}`}>
           <button className="Navbar_mobilenav">Home</button>
           <button  className="Navbar_mobilenav">Contact</button>
           <button  className="Navbar_mobilenav">About</button>

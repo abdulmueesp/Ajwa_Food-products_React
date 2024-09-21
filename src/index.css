@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,5 +12,8 @@
     @apply hover:text-yellow-200 text-gray-600 font-bold font-local2 text-lg
 }
 .Navbar_mobilenav{
-    @apply w-[220px] h-[40px] border-2 border-customGreen rounded-3xl bg-customGreen text-white shadow-custom-outer
+    @apply w-[220px] h-[40px]  rounded-3xl bg-green-700 text-white shadow-custom-outer3
 }
+.Boxes{
+    @apply w-[130px] h-[70px]  rounded-b-[20px] rounded-tl-[20px] shadow-custom-outer4 bg-[#f5f5f5] flex flex-col border-2 border-gray-200
+} 
