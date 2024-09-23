@@ -12,8 +12,8 @@ export default {
         local2:['Gruppo'],
         local3:['Agbalumo'],
         local4:['Kanit'],
-        local5:['Nunito']
-
+        local5:['Nunito'],
+        local6:['Playwrite']
       },
       colors: {
         customGreen: '#245600',
@@ -22,7 +22,8 @@ export default {
         'xs': '550px',
         'slg':'900px',
         '4hsize':'405px',
-        '34hsize':'344px'
+        '34hsize':'344px',
+        '5hsize':'575px'
       },
       boxShadow: {
         'custom-outer': '7px 7px 7px 0px rgba(30, 80, 0, 0.50)',
@@ -30,6 +31,7 @@ export default {
         'custom-outer2': '2px 2px 2px 0px rgba(0, 0, 0, 0.5)',
         'custom-outer3': '0px 5px 5px 2px rgba(0, 0, 0,0.2)',
         'custom-outer4': '2px 2px 2px 0px rgba(0, 0, 0,0.2)',
+        'inner-custom': 'inset 1px 1px 7px 0px rgba(0,0,0)',
       },
       keyframes: {
         slideDown: { '0%': { transform: 'translateY(-300px)' }, '100%': { transform: 'translateY(0)' } },
