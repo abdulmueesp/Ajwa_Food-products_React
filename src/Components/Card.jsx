@@ -1,6 +1,8 @@
 import React from 'react'
 import ads from "../assets/ads.png"
 import square from "../assets/circle1.png"
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Card = () => {
   return (
     <div>
@@ -12,14 +14,14 @@ const Card = () => {
         </div>
          {/* 2st box  */}
          <div className='w-[600px] md:w-[700px] slg:w-[900px] h-[210] md:h-[280px] slg:h-[330px]  flex justify-center items-center pl-2 pr-2'>
-            <img src={ads} alt="" className='w-[190] md:w-[250px] slg:w-[280px] h-[210px] md:h-[280px] slg:h-[300px]' />
-            <div className='w-[330px] 5hsize:w-[380px] md:w-[430px] slg:w-[600px] h-[210px] md:h-[280px] slg:h-[300px]  bg-white   flex flex-col space-y-2 items-center justify-center shadow-custom-outer1 ' >
+            <img src={ads} alt="" className='w-[190] md:w-[250px] slg:w-[280px] h-[210px] md:h-[280px] slg:h-[300px]' data-aos="zoom-in-up"  data-aos-delay="100" />
+            <div className='w-[330px] 5hsize:w-[380px] md:w-[430px] slg:w-[600px] h-[210px] md:h-[280px] slg:h-[300px]  bg-white   flex flex-col space-y-2 items-center justify-center shadow-custom-outer1 ' data-aos="zoom-in-up"  data-aos-delay="100">
                 {/* main quote  */}
               <div className='slg:w-[500px] slg:h-[100px] pr-1  flex justify-center items-center'>
-                <h1 className='font-local2 font-bold  text-green-700 text-lg 5hsize:text-xl sm:text-2xl slg:text-3xl'>Cook with love and keep your family healthy with our pure coconut oil</h1>
+                <h1 className='font-local2 font-bold  text-green-700 text-lg 5hsize:text-xl sm:text-2xl slg:text-3xl' data-aos="zoom-in-up"  data-aos-delay="100">Cook with love and keep your family healthy with our pure coconut oil</h1>
                 </div>
                   {/* second word  */}
-                  <div className='font-local2  font-bold text-sm 5hsize:text-base sm:text-xl '><h2>healthy and tasty!</h2></div>
+                  <div className='font-local2  font-bold text-sm 5hsize:text-base sm:text-xl ' data-aos="zoom-in-up"  data-aos-delay="100" ><h2>healthy and tasty!</h2></div>
             </div>
          </div>
          {/* 3rd box  */}
