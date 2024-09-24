@@ -19,11 +19,15 @@ export default {
         customGreen: '#245600',
       },
       screens:{
-        'xs': '550px',
-        'slg':'900px',
-        '4hsize':'405px',
         '34hsize':'344px',
-        '5hsize':'575px'
+        '4hsize':'405px',
+        '45hsize':'450px',
+        'xs': '550px',
+        '5hsize':'575px',
+        'slg':'900px',
+        '1tsize':'1170px'
+        
+        
       },
       boxShadow: {
         'custom-outer': '7px 7px 7px 0px rgba(30, 80, 0, 0.50)',
