@@ -1,7 +1,6 @@
 
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
-import Logo from "../assets/logo.png"
 
 const Navbar = () => {
     const [open,Setopen]=useState('true')

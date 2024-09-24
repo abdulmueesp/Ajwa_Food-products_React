@@ -5,6 +5,8 @@ import Boxes from "../Components/Boxes";
 import Card from "../Components/Card";
 import Sample from "../Components/sample";
 import Delivery from "../Components/Delivery";
+import Feature from "../Components/Feature";
+import Footer from "../Components/Footer";
 const Home = () => {
  
   return (
@@ -14,7 +16,8 @@ const Home = () => {
      <Boxes />
      <Delivery/>
      <Card/>
-     <Sample/>
+     <Feature/>
+     <Footer/>
     </div>
 
   );
