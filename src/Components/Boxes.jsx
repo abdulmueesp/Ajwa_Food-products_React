@@ -30,13 +30,13 @@ const Boxes = () => {
          <div className='w-full h-[17px]  rounded-xl flex justify-center items-center font-thin font-local5 text-gray-700 text-xs md:text-sm '>
                 <h2>Sincerely by</h2>
             </div>
-            <div className='w-full h-[35px] rounded-xl font-extrabold flex justify-center items-center text-xl font-local '><h1>120</h1></div>
+            <div className='w-full h-[35px] rounded-xl font-extrabold flex justify-center items-center text-xl font-local '><h1>25</h1></div>
             <div className='w-full h-[18px]  rounded-xl flex justify-center items-center font-local5 text-gray-700  font-thin text-xs md:text-sm'>
                  <h2>Hardworkers</h2>
             </div>
          </div>
          {/* 4th box  */}
-         <div className='w-[130px] h-[70px]  rounded-b-[20px] rounded-tl-[20px] shadow-custom-outer4 bg-green-700 flex flex-col text-white '>
+         <div className='w-[130px] h-[70px]  rounded-b-[20px] rounded-tl-[20px] shadow-custom-outer4 bg-green-700 flex flex-col text-white border-2 border-green-700'>
          <div className='w-full h-[17px]  rounded-xl flex justify-center items-center  font-local5 text-white text-xs md:text-sm '>
                 <h2>Over </h2>
             </div>

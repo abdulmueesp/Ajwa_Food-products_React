@@ -2,24 +2,24 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
 import Boxes from "../Components/Boxes";
-import Card from "../Components/Card";
-import Sample from "../Components/sample";
 import Delivery from "../Components/Delivery";
 import Feature from "../Components/Feature";
 import Footer from "../Components/Footer";
+import Manifacture from "../Components/Manifacture";
+import Whatsapp from "../Components/Whatsapp";
+
 const Home = () => {
- 
   return (
     <div>
-    <Navbar />  
-     <Banner/>
-     <Boxes />
-     <Delivery/>
-     <Card/>
-     <Feature/>
-     <Footer/>
+      <Navbar />
+      <Banner />
+      <Boxes />
+      <Delivery/>
+      <Manifacture/>
+      <Feature />
+      <Whatsapp />
+      <Footer />
     </div>
-
   );
 };
 

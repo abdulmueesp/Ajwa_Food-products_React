@@ -13,12 +13,13 @@ const Delivery = () => {
                 <h1>24/7 Fast & Reliable Delivery Service</h1>
               </div>
               {/* paragraph */}
-              <div className='w-[340px] 45hsize:w-[400px] md:w-[500px] lg:w-[650px] 1tsize:w-[800px] h-min  font-local2 font-bold   text-base lg:text-xl'>
+              <div className='w-[340px] 45hsize:w-[400px] md:w-[500px] lg:w-[650px] 1tsize:w-[800px] h-min  font-local2 font-bold text-gray-600  text-base lg:text-xl'>
                 <h3>We offer round-the-clock delivery, ensuring that you receive our premium coconut oil at your convenience. With our fast and reliable service, your orders will be delivered swiftly, no matter where you are. Enjoy the ease of 24/7 access to natural and high-quality coconut oil.</h3>
               </div>
           </div>
     </div>
   )
 }
-
+// 24/7 Fast & Reliable Delivery Service
+// We offer round-the-clock delivery, ensuring that you receive our premium coconut oil at your convenience. With our fast and reliable service, your orders will be delivered swiftly, no matter where you are. Enjoy the ease of 24/7 access to natural and high-quality coconut oil.
 export default Delivery
