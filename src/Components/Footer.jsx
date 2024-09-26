@@ -18,9 +18,9 @@ const Footer = () => {
       </h3>
       {/* icons */}
       <div className="w-[200px] h-min flex space-x-3 pt-3">
-        <img src={whatsappicon} alt="" className="w-[30px] h-[30px]" />
-        <img src={instagram} alt="" className="w-[30px] h-[30px]" />
-        <img src={facebook} alt="" className="w-[30px] h-[30px]" />
+        <img src={whatsappicon} alt="" className="w-[25px] 45hsize:w-[30px] h-[25px] 45hsize:h-[30px]" />
+        <img src={instagram} alt="" className="w-[25px] 45hsize:w-[30px] h-[25px] 45hsize:h-[30px]" />
+        <img src={facebook} alt="" className="w-[27px] 45hsize:w-[30px] h-[27px] 45hsize:h-[30px]" />
       </div>
        </div>
         {/* box2 */}

@@ -5,18 +5,16 @@ import Delivery from "../Components/Delivery";
 import Feature from "../Components/Feature";
 import Manifacture from "../Components/Manifacture";
 import Whatsapp from "../Components/Whatsapp";
-import Layout from "../Components/Layout";
+
 const Home = () => {
   return (
     <div>
-      <Layout>
       <Banner />
       <Boxes />
       <Delivery/>
       <Manifacture/>
       <Feature />
       <Whatsapp />
-      </Layout>
     </div>
   );
 };
