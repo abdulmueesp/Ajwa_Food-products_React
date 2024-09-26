@@ -1,6 +1,6 @@
 import React from 'react'
-import Machine from "../assets/machine.jpg"
 const Aboutbox = ({head1,paragraph1,head2,paragraph2,img}) => {
+  
   return (
     <div>
       <div className="w-full h-[700px]  45hsize:h-[650px] xs:h-[600px] slg:h-[330px] 1tsize:h-[250px]  bg-[#f5f5f5] flex flex-col slg:flex-row justify-center items-center">
