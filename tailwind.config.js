@@ -52,8 +52,8 @@ export default {
       animation: {
         slideDown: 'slideDown 1s ease-in-out',
         slideUp: 'slideUp 1s ease-in-out forwards',
-        'fadeIn': 'fadeIn 3s ease-in-out forwards',
         spin: 'spin 1s linear infinite',
+        fadeIn: 'fadeIn 3s ease-in-out forwards',
         
       },
     },

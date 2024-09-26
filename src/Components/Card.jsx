@@ -1,7 +1,6 @@
 import React from 'react'
 import ads from "../assets/ads.png"
 import square from "../assets/circle1.png"
-import AOS from "aos";
 import "aos/dist/aos.css";
 const Card = () => {
   return (

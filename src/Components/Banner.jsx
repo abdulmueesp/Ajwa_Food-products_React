@@ -48,14 +48,14 @@ const Banner = () => {
           </div>
         </div>
         {/* design box section  */}
-        <div className="w-full h-[80px] bg-[#f5f5f5]  flex justify-between  hidden lg:flex ">
+        <div className="w-full h-[80px] bg-[#f5f5f5]  flex justify-between  hidden lg:flex animate-fadeIn">
           <img src={square} alt="" className="w-[75px] h-[75px]" />
         </div>
       </div>
       {/* right section  */}
       <div className="w-full sm:w-[30%] lg:w-[50%] h-[270px] sm:h-[300px]  lg:h-[400px]  flex ">
         {/* response div  */}
-        <div className="w-[370px] h-[270px]  block sm:hidden flex flex-col justify-center items-center  ">
+        <div className="w-[370px] h-[270px]  block sm:hidden flex flex-col justify-center items-center animate-fadeIn ">
           <div className="w-full h-[70%]  p-1 flex justify-center items-center">
             <img
               src={hunpure}
@@ -63,11 +63,11 @@ const Banner = () => {
               className=" w-[50px] 34hsize:w-[90px] 4hsize:w-[130px] h-[60px] 34hsize:h-[100px] 4hsize:h-[140px]"
             />
           </div>
-          <div className="w-full h-[30%]  flex items-end justify-start">
+          <div className="w-full h-[30%]  flex items-end justify-start animate-fadeIn ">
             <img
               src={square}
               alt=""
-              className="w-[40px] 34hsize:w-[60px] 4hsize:w-[60px] h-[40px] 34hsize:h-[60px] 4hsize:h-[60px]"
+              className="w-[40px] 34hsize:w-[60px] 4hsize:w-[60px] h-[40px] 34hsize:h-[60px] 4hsize:h-[60px] "
             />
           </div>
         </div>
@@ -84,7 +84,7 @@ const Banner = () => {
             />
           </div>
         </div>
-        <div className="w-[160px] h-[400px] flex justify-end  hidden lg:flex">
+        <div className="w-[160px] h-[400px] flex justify-end  hidden lg:flex animate-fadeIn">
           <img src={square} alt="" className="w-[75px] h-[75px] " />
         </div>
       </div>

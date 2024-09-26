@@ -1,9 +1,10 @@
 import React from 'react'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Boxes = () => {
   return (
-    <div className='w-full h-[240px] sm:h-[180px] bg-[#f5f5f5]  flex justify-center items-center '>
-      <div className='w-[300px] xs:w-[400px] sm:w-[630px] md:w-[750px] slg:w-[900px] lg:w-[1000px] h-[240px] sm:h-[180px]  grid grid-cols-2 sm:grid-cols-4 pt-[27px] lg:pt-[35px]'>
+    <div className='w-full h-[240px] sm:h-[180px] bg-[#f5f5f5]  flex justify-center items-center  '>
+      <div className='w-[300px] xs:w-[400px] sm:w-[630px] md:w-[750px] slg:w-[900px] lg:w-[1000px] h-[240px] sm:h-[180px]  grid grid-cols-2 sm:grid-cols-4 pt-[27px] lg:pt-[35px] ' data-aos-delay="700" data-aos="zoom-in" >
          {/* box 1  */}
          <div className='Boxes  '>
             <div className='w-full h-[17px]  rounded-xl flex justify-center items-center font-thin font-local5 text-gray-700 text-xs md:text-sm '>
