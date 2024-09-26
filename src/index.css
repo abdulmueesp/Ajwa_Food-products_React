@@ -10,7 +10,7 @@
 @tailwind utilities;
 
 .Navbar_nav{
-    @apply hover:text-yellow-200 text-gray-600 font-bold font-local2 text-lg
+    @apply hover:text-black text-gray-600 font-bold font-local2 text-lg
 }
 .Navbar_mobilenav{
     @apply w-[220px] h-[40px]  rounded-3xl bg-green-700 text-white shadow-custom-outer3

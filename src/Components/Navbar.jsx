@@ -26,10 +26,10 @@ const Navbar = () => {
         <nav
           className={`h-[60px] w-[650px] flex xs:space-x-5  md:space-x-16  items-center justify-center font-local font-normal hidden xs:flex  `}
         >
-          <Link className="Navbar_nav">Home</Link>
+          <Link className="Navbar_nav" to={"/"}>Home</Link>
           <Link className="Navbar_nav">Contact</Link>
           <Link className="Navbar_nav">Help</Link>
-          <Link className="Navbar_nav">About</Link>
+          <Link className="Navbar_nav" to={"/about"}>About</Link>
         </nav>
         {/* menu button section  */}
         <div className="flex justify-center items-center w-[65px] h-[60px] bg-[#f5f5f5]  block xs:hidden  " onClick={toggle} >
