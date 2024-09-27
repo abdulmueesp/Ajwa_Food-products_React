@@ -7,7 +7,7 @@ import hunpure from "../assets/hunpure.png";
 import "aos/dist/aos.css";
 const Banner = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // You can adjust the duration here
+    AOS.init({ duration: 1000 }); 
   }, []);
 
   return (
@@ -41,6 +41,7 @@ const Banner = () => {
                 classname={
                   "w-[240px] h-[40px] shadow-custom-outer3 font-local2 font-bold text-lg rounded-3xl bg-green-700 text-white"
                 }
+                to="/about"
               >
                 Learn more
               </Button>
@@ -59,14 +60,14 @@ const Banner = () => {
           <div className="w-full h-[70%]  p-1 flex justify-center items-center">
             <img
               src={hunpure}
-              alt=""
+              alt="img"
               className=" w-[50px] 34hsize:w-[90px] 4hsize:w-[130px] h-[60px] 34hsize:h-[100px] 4hsize:h-[140px]"
             />
           </div>
           <div className="w-full h-[30%]  flex items-end justify-start animate-fadeIn ">
             <img
               src={square}
-              alt=""
+              alt="img"
               className="w-[40px] 34hsize:w-[60px] 4hsize:w-[60px] h-[40px] 34hsize:h-[60px] 4hsize:h-[60px] "
             />
           </div>
@@ -79,17 +80,17 @@ const Banner = () => {
           >
             <img
               src={adgirl}
-              alt=""
+              alt="img"
               className="  w-[200px] md:w-[250px] lg:w-[320px] h-[150px] md:h-[200px] lg:h-[250px] mb-[1px] mr-[32px] md:mr-0 md:mb-0"
             />
           </div>
         </div>
         <div className="w-[160px] h-[400px] flex justify-end  hidden lg:flex animate-fadeIn">
-          <img src={square} alt="" className="w-[75px] h-[75px] " />
+          <img src={square} alt="img" className="w-[75px] h-[75px] " />
         </div>
       </div>
     </div>
   );
 };
-// bg-[rgb(252, 235, 21)]
+
 export default Banner;

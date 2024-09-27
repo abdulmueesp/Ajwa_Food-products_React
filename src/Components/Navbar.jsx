@@ -28,7 +28,7 @@ const Navbar = () => {
         >
           <Link className="Navbar_nav" to={"/"}>Home</Link>
           <Link className="Navbar_nav" to={"/contact"}>Contact</Link>
-          <Link className="Navbar_nav">Help</Link>
+          <Link className="Navbar_nav" to={'/help'}>Help</Link>
           <Link className="Navbar_nav" to={"/about"}>About</Link>
         </nav>
         {/* menu button section  */}
@@ -71,11 +71,15 @@ const Navbar = () => {
         <Link to={"/"} onClick={closeMenu}>
           <button  className="Navbar_mobilenav">Home</button>
             </Link>
+            <Link to={"/contact"} onClick={closeMenu} >
           <button  className="Navbar_mobilenav">Contact</button>
+          </Link>
+          <Link to={"/help"} onClick={closeMenu}>
+          <button  className="Navbar_mobilenav">Help</button>
+          </Link>
           <Link to={"/about"} onClick={closeMenu}>
           <button  className="Navbar_mobilenav">About</button>
           </Link>
-          <button  className="Navbar_mobilenav">Help</button>
         </div>
         
     </div>

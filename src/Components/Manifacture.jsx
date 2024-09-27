@@ -66,7 +66,7 @@ const Manifacture = () => {
             </h3>
           </div>
         </div>
-        <div className="w-[320px] 45hsize:w-[400px] h-min flex  underline underline-offset-1 text-green-700"><a href=""><h3>Read more</h3></a> </div>
+        <div className="w-[320px] 45hsize:w-[400px] h-min flex  underline underline-offset-1 text-green-700"><a href="/about"><h3>Read more</h3></a> </div>
       </div>
       {/* second box / right side  */}
         <div className="w-[320px] 45hsize:w-[400px] xs:w-[500px] xl:w-[600px] h-[220px] 45hsize:h-[250px] xl:h-[350px] border-black flex justify-center sm:justify-normal ">

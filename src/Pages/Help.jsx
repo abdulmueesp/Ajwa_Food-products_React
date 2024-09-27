@@ -4,7 +4,7 @@ import  screen2 from "../assets/screen2.png"
 const Help = () => {
   return (
     <div>
-    <div className='w-full h-[650px] lg:h-[350px]   flex flex-col lg:flex-row items-center lg:items-start pt-[30px] sm:pt-[60px] pl-2 sm:pl-[20px] md:pl-[50px] '>
+    <div className='w-full h-[650px] lg:h-[350px]   flex flex-col lg:flex-row items-center lg:items-start pt-[30px] sm:pt-[60px] pl-2 sm:pl-[20px] md:pl-[50px]  '>
         {/* first box  */}
        <div className='w-[330px] 4hsize:w-[380px] 45hsize:w-[420x] xs:w-[500px] sm:w-[540px] md:w-[600px] slg:w-[800px] lg:w-[600px] xl:w-[800px] h-[390px] 4hsize:h-[350px] 45hsize:h-[310px] sm:h-[280px] md:h-[250px]  '>
         {/* heading */}
@@ -25,7 +25,7 @@ const Help = () => {
        </div>
     </div>
     {/* second layer */}
-    <div className='w-full h-[250px]  flex flex-col lg:flex-row items-center lg:justify-center sm:pt-[20px] '>
+    <div className='w-full h-[250px]  flex flex-col lg:flex-row items-center lg:justify-center sm:pt-[20px]  '>
         {/* first box  */}
         <div className='w-[300px] xs:w-[400px] h-min  flex justify-center items-center'>
               <img src={screen2} alt="" className='w-[200px] xs:w-[300px] h-[80px] xs:h-[120px]' />
