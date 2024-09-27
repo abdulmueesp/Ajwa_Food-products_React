@@ -4,7 +4,7 @@ const Whatsapp = () => {
   return (
     
       <a 
-      href="https://wa.me/+916238086620"
+      href="https://wa.me/+919207537988"
       className="fixed right-4 bottom-20 z-50"
       >
         <img src={whatsapp} alt="" className='w-[70px] h-[70px] rounded-full animate-bounce' />

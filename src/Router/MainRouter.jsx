@@ -4,6 +4,7 @@ import Home from '../Pages/Home'
 import About from '../Pages/About'
 import Layout from "../Components/Layout.jsx"
 import Contact from '../Pages/Contact.jsx'
+import Help from '../Pages/Help.jsx'
 
 
 const MainRouter = () => {
@@ -15,6 +16,7 @@ const MainRouter = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/help' element={<Help/>} />
       </Routes>
       </Layout>
       </BrowserRouter>

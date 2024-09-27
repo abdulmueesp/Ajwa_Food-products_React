@@ -27,7 +27,7 @@ const Navbar = () => {
           className={`h-[60px] w-[650px] flex xs:space-x-5  md:space-x-16  items-center justify-center font-local font-normal hidden xs:flex  `}
         >
           <Link className="Navbar_nav" to={"/"}>Home</Link>
-          <Link className="Navbar_nav">Contact</Link>
+          <Link className="Navbar_nav" to={"/contact"}>Contact</Link>
           <Link className="Navbar_nav">Help</Link>
           <Link className="Navbar_nav" to={"/about"}>About</Link>
         </nav>
